@@ -1,0 +1,4 @@
+user_id,product_id,event_type,timestamp,device
+U1,P1,view,2025-01-01 10:01:00,web
+U1,P1,click,2025-01-01 10:02:10,web
+U2,P3,view,2025-01-01 11:15:45,mobile

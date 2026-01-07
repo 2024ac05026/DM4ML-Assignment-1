@@ -35,3 +35,5 @@ modern data engineering and MLOps practices.
 
 ## How to Run
 (To be updated as pipeline is implemented)
+1. Problem Formulation - Report is present under reports/1_problem_formulation.pdf
+2. Data Collection and Ingestion - python src/ingestion/ingest_clickstream.py
