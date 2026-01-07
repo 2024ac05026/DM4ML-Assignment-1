@@ -1,4 +1,26 @@
 user_id,product_id,event_type,timestamp,device
 U1,P1,view,2025-01-01 10:01:00,web
 U1,P1,click,2025-01-01 10:02:10,web
+U1,P2,view,2025-01-01 10:05:30,web
+U1,P2,add_to_cart,2025-01-01 10:06:15,web
 U2,P3,view,2025-01-01 11:15:45,mobile
+U2,P3,click,2025-01-01 11:16:10,mobile
+U2,P4,view,2025-01-01 11:18:00,mobile
+U3,P2,view,2025-01-01 12:10:20,web
+U3,P2,click,2025-01-01 12:11:05,web
+U3,P5,view,2025-01-01 12:13:40,web
+U4,P1,view,2025-01-01 13:25:00,mobile
+U4,P1,click,2025-01-01 13:26:30,mobile
+U4,P3,view,2025-01-01 13:28:10,mobile
+U5,P4,view,2025-01-01 14:05:55,web
+U5,P4,add_to_cart,2025-01-01 14:06:40,web
+U5,P2,view,2025-01-01 14:10:15,web
+U6,P5,view,2025-01-01 15:45:00,mobile
+U6,P5,click,2025-01-01 15:46:10,mobile
+U7,P3,view,2025-01-01 16:20:30,web
+U7,P3,click,2025-01-01 16:21:45,web
+U8,P1,view,2025-01-01 17:05:10,mobile
+U8,P2,view,2025-01-01 17:06:25,mobile
+U9,P4,view,2025-01-01 18:30:00,web
+U9,P4,click,2025-01-01 18:31:20,web
+U10,P5,view,2025-01-01 19:10:45,mobile
