@@ -1,0 +1,7 @@
+raw: data/raw
+validated: data/validated
+processed: data/processed
+features: data/features
+
+logs: logs
+source_files: data/source_files

@@ -15,3 +15,7 @@
 2026-01-07 12:08:50,054 - ERROR - Product ingestion failed after retries
 2026-01-07 12:09:07,058 - INFO - Starting product API ingestion
 2026-01-07 12:09:07,058 - INFO - Product data ingested successfully at data\raw\products\2026\01\07\products.json
+2026-01-07 12:16:56,892 - INFO - Starting product API ingestion
+2026-01-07 12:16:56,893 - INFO - Product data ingested successfully at data\raw\products\2026\01\07\products.json
+2026-01-07 12:17:00,295 - INFO - Starting clickstream ingestion
+2026-01-07 12:17:00,295 - INFO - Clickstream data ingested successfully at data\raw\clickstream\2026\01\07\clickstream.csv

@@ -3,12 +3,15 @@ import time
 from datetime import datetime
 from pathlib import Path
 from src.utils.logger import get_logger
+from src.utils.config_loader import load_paths
 
-LOG_FILE = "logs/ingestion.log"
+paths = load_paths()
+
+LOG_FILE = Path(paths["logs"]) / "ingestion.log"
 logger = get_logger("product_ingestion", LOG_FILE)
 
-RAW_DATA_PATH = Path("data/raw/products")
-MOCK_API_FILE = Path("data/source_files/products.json")  # simulated API
+RAW_DATA_PATH = Path(paths["raw"]) / "products"
+MOCK_API_FILE = Path(paths["source_files"]) / "products.json"
 
 
 def ingest_products(retries=3):
