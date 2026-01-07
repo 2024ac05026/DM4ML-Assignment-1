@@ -1,0 +1,82 @@
+DM4ML-ASSIGNMENT-1/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── config/
+│   ├── ingestion.yaml
+│   ├── validation.yaml
+│   ├── feature_store.yaml
+│   └── paths.yaml
+│
+├── data/
+│   ├── raw/
+│   │   ├── clickstream/
+│   │   │   └── yyyy/mm/dd/
+│   │   ├── transactions/
+│   │   │   └── yyyy/mm/dd/
+│   │   └── products/
+│   │       └── yyyy/mm/dd/
+│   │
+│   ├── validated/
+│   │   └── yyyy/mm/dd/
+│   │
+│   ├── processed/
+│   │   └── yyyy/mm/dd/
+│   │
+│   └── features/
+│       └── yyyy/mm/dd/
+│
+├── scripts/
+│   ├── 01_eda.ipynb
+│   ├── 02_data_profiling.ipynb
+│   └── 03_feature_exploration.ipynb
+│
+├── src/
+│   ├── ingestion/
+│   │   ├── ingest_clickstream.py
+│   │   ├── ingest_transactions.py
+│   │   └── ingest_products_api.py
+│   │
+│   ├── validation/
+│   │   └── validate_data.py
+│   │
+│   ├── preparation/
+│   │   └── clean_and_prepare.py
+│   │
+│   ├── transformation/
+│   │   └── feature_engineering.py
+│   │
+│   ├── feature_store/
+│   │   ├── registry.py
+│   │   └── get_features.py
+│   │
+│   ├── models/
+│   │   ├── train_model.py
+│   │   ├── evaluate_model.py
+│   │   └── inference.py
+│   │
+│   ├── orchestration/
+│   │   └── pipeline_dag.py
+│   │
+│   └── utils/
+│       ├── logger.py
+│       ├── config_loader.py
+│       └── paths.py
+│
+├── mlruns/                 # MLflow artifacts
+│
+├── logs/
+│   ├── ingestion.log
+│   ├── validation.log
+│   ├── pipeline.log
+│
+├── reports/
+│   ├── problem_formulation.pdf
+│   ├── data_quality_report.pdf
+│   └── model_evaluation.pdf
+│
+├── dvc.yaml
+└── demo/
+    └── pipeline_walkthrough.md
