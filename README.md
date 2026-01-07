@@ -31,7 +31,26 @@ modern data engineering and MLOps practices.
 - Airflow / Prefect (Orchestration)
 
 ## Repository Structure
-(brief tree or reference to folders)
+    DM4ML-Assignment-1/
+    ├── config/ # Configuration files
+    ├── data/ # Data lake (raw, validated, processed, features)
+    ├── logs/ # Pipeline logs
+    ├── reports/ # Assignment reports (PDF)
+    ├── scripts/ # Notebooks for EDA and analysis
+    ├── src/ # Source code for pipeline stages
+    │ ├── ingestion/ # Data ingestion scripts
+    │ ├── validation/ # Data validation logic
+    │ ├── preparation/ # Data cleaning and preprocessing
+    │ ├── transformation/ # Feature engineering
+    │ ├── feature_store/ # Feature registry and retrieval
+    │ ├── models/ # Model training and evaluation
+    │ └── orchestration/ # Pipeline orchestration
+    ├── mlruns/ # MLflow artifacts
+    ├── demo/ # Demo and walkthrough files
+    ├── dvc.yaml # Data versioning configuration
+    ├── README.md
+    ├── requirements.txt
+    └── .gitignore
 
 ## How to Run
 1. **Problem Formulation**  
