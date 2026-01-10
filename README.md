@@ -53,13 +53,44 @@ modern data engineering and MLOps practices.
     └── .gitignore
 
 ## How to Run
+
+## Setup
+    Install required libraries by running
+    
+    ```bash
+    pip install -r requirements.txt
+
 1. **Problem Formulation**  
    Report is available at: reports/1_problem_formulation.pdf
 
 2. **Data Collection and Ingestion**
-
     Run the ingestion scripts from the project root:
 
     ```bash
     python -m src.ingestion.ingest_clickstream
     python -m src.ingestion.ingest_products_api
+
+    Expected Output:
+    
+    ```bash
+    data/raw/clickstream/YYYY/MM/DD/clickstream.csv
+    data/raw/products/YYYY/MM/DD/products.json
+    logs/ingestion.log
+
+3. **Raw Data Storage**
+    Raw data is stored in a date-partitioned local data lake:
+
+    ```bash
+    data/raw/
+
+4. **Data Profiling and Validation**
+    Run the validation scripts from the project root:
+
+    ```bash
+    python -m src.validation.validate_data
+
+    Expected Output:
+
+    ```bash
+    reports/4_data_quality_report.pdf
+    logs/validation.log

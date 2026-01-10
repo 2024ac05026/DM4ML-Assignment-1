@@ -23,3 +23,7 @@
 2026-01-07 17:19:10,734 - INFO - Clickstream data ingested successfully at data\raw\clickstream\2026\01\07\clickstream.csv
 2026-01-07 17:21:20,090 - INFO - Starting clickstream ingestion
 2026-01-07 17:21:20,090 - INFO - Clickstream data ingested successfully at data\raw\clickstream\2026\01\07\clickstream.csv
+2026-01-10 18:54:38,626 - INFO - Starting product API ingestion
+2026-01-10 18:54:39,231 - INFO - Product data ingested successfully from API at data\raw\products\2026\01\10\products.json
+2026-01-10 18:54:57,320 - INFO - Starting clickstream ingestion
+2026-01-10 18:54:57,329 - INFO - Clickstream data ingested successfully at data\raw\clickstream\2026\01\10\clickstream.csv
