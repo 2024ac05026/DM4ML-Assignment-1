@@ -131,3 +131,22 @@ modern data engineering and MLOps practices.
     - item_features
     - user_item_features
     ```
+
+7. **Feature Store**
+    Run the feature store demo script from the project root:
+
+    ```bash
+    python -m src.feature_store.demo_feature_retrieval
+    ```
+
+    This step demonstrates versioned feature retrieval from the feature store
+    for both training and inference use cases.
+
+    **Expected Output:**
+
+    ```bash
+    Retrieved feature records for:
+    - User features
+    - Item features
+    - User–item interaction features
+    ```
