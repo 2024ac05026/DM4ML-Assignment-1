@@ -180,3 +180,46 @@ modern data engineering and MLOps practices.
     .dvc/
     .dvcignore
     ```
+
+9. **Model Training and Evaluation**
+    Train the recommendation model using features from the PostgreSQL feature store:
+
+    ```bash
+    python -m src.models.train_model
+    ```
+
+    Evaluate the trained model using ranking-based metrics:
+
+    ```bash
+    python -m src.models.evaluate_model
+    ```
+
+    Run inference to generate recommendations for a sample user:
+
+    ```bash
+    python -m src.models.inference
+    ```
+
+    This step trains a collaborative filtering model (Matrix Factorization using SVD),
+    evaluates it using Precision@K and Recall@K, and tracks model parameters and metrics
+    using MLflow.
+
+    View in ML Flow UI -
+    
+    ```bash
+    mlflow ui
+    ```
+
+    **Expected Output:**
+
+    ```bash
+    MLflow Runs:
+    - Model parameters (algorithm, latent dimensions)
+    - Evaluation metrics (Precision@5, Recall@5)
+
+    Model Artifact:
+    - models/svd_model.pkl
+
+    Inference Output:
+    - Top-K recommended product IDs for a given user
+    ```
