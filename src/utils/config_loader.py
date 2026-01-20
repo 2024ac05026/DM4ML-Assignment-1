@@ -1,5 +1,11 @@
 import yaml
 
-def load_paths(config_path="config/paths.yaml"):
-    with open(config_path, "r") as f:
+def load_yaml(path):
+    with open(path, "r") as f:
         return yaml.safe_load(f)
+
+def load_paths():
+    return load_yaml("config/paths.yaml")
+
+def load_db_config():
+    return load_yaml("config/database.yaml")

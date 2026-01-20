@@ -112,3 +112,22 @@ modern data engineering and MLOps practices.
     data/processed/eda/interaction_distribution.png
     data/processed/eda/top_products.png
     ```
+
+6. **Feature Engineering and Transformation**
+    Run the feature engineering script from the project root:
+
+    ```bash
+    python -m src.transformation.feature_engineering
+    ```
+
+    This step generates user-level, item-level, and user–item interaction features
+    from the prepared dataset and stores them in a PostgreSQL database.
+
+    **Expected Output:**
+
+    ```bash
+    PostgreSQL Tables:
+    - user_features
+    - item_features
+    - user_item_features
+    ```

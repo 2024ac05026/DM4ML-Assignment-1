@@ -8,3 +8,4 @@ scikit-learn
 mlflow
 dvc
 reportlab
+psycopg2
