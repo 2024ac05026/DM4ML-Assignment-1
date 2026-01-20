@@ -27,3 +27,23 @@
 2026-01-10 18:54:39,231 - INFO - Product data ingested successfully from API at data\raw\products\2026\01\10\products.json
 2026-01-10 18:54:57,320 - INFO - Starting clickstream ingestion
 2026-01-10 18:54:57,329 - INFO - Clickstream data ingested successfully at data\raw\clickstream\2026\01\10\clickstream.csv
+2026-01-20 14:25:11,405 - INFO - Starting clickstream ingestion
+2026-01-20 14:25:11,416 - INFO - Clickstream data ingested successfully at data\raw\clickstream\2026\01\20\clickstream.csv
+2026-01-20 14:25:11,604 - INFO - Starting product API ingestion
+2026-01-20 14:25:12,339 - INFO - Product data ingested successfully from API at data\raw\products\2026\01\20\products.json
+2026-01-20 14:31:49,419 - INFO - Starting clickstream ingestion
+2026-01-20 14:31:49,420 - INFO - Clickstream data ingested successfully at data\raw\clickstream\2026\01\20\clickstream.csv
+2026-01-20 14:31:49,591 - INFO - Starting product API ingestion
+2026-01-20 14:31:49,860 - ERROR - Attempt 1 failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-01-20 14:31:51,861 - INFO - Starting product API ingestion
+2026-01-20 14:31:52,126 - ERROR - Attempt 2 failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-01-20 14:31:54,127 - INFO - Starting product API ingestion
+2026-01-20 14:31:54,687 - INFO - Product data ingested successfully from API at data\raw\products\2026\01\20\products.json
+2026-01-20 14:33:28,193 - INFO - Starting clickstream ingestion
+2026-01-20 14:33:28,193 - INFO - Clickstream data ingested successfully at data\raw\clickstream\2026\01\20\clickstream.csv
+2026-01-20 14:33:28,359 - INFO - Starting product API ingestion
+2026-01-20 14:33:28,884 - INFO - Product data ingested successfully from API at data\raw\products\2026\01\20\products.json
+2026-01-20 14:35:38,824 - INFO - Starting clickstream ingestion
+2026-01-20 14:35:38,825 - INFO - Clickstream data ingested successfully at data\raw\clickstream\2026\01\20\clickstream.csv
+2026-01-20 14:35:39,001 - INFO - Starting product API ingestion
+2026-01-20 14:35:39,524 - INFO - Product data ingested successfully from API at data\raw\products\2026\01\20\products.json

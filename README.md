@@ -205,7 +205,7 @@ modern data engineering and MLOps practices.
     using MLflow.
 
     View in ML Flow UI -
-    
+
     ```bash
     mlflow ui
     ```
@@ -222,4 +222,31 @@ modern data engineering and MLOps practices.
 
     Inference Output:
     - Top-K recommended product IDs for a given user
+    ```
+
+10. **Pipeline Orchestration**
+    The end-to-end data and machine learning pipeline is orchestrated using Prefect.
+
+    Run the pipeline from the project root:
+
+    ```bash
+    python -m src.orchestration.prefect_flow
+    ```
+
+    This flow automates the complete pipeline including:
+    ingestion → validation → data preparation → feature engineering →
+    feature store access → model training → model evaluation.
+
+    Prefect provides task-level logging, retries, and execution monitoring.
+
+    View in Prefect UI
+    ```bash
+    prefect server start
+    ```
+
+    **Expected Output:**
+
+    ```bash
+    Successful execution logs for all pipeline stages
+    Prefect flow run visible in the Prefect UI
     ```
