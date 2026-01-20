@@ -150,3 +150,33 @@ modern data engineering and MLOps practices.
     - Item features
     - User–item interaction features
     ```
+
+8. **Data Versioning and Lineage**
+    Initialize data versioning using DVC:
+
+    ```bash
+    dvc init
+    ```
+
+    Track raw and processed datasets:
+
+    ```bash
+    dvc add data/raw
+    dvc add data/processed
+    ```
+
+    Commit the generated metadata files to Git.
+
+    ```bash
+    git add data/raw.dvc data/processed.dvc .gitignore
+    git commit -m "Track datasets with DVC"
+    ```
+
+    **Expected Output:**
+
+    ```bash
+    data/raw.dvc
+    data/processed.dvc
+    .dvc/
+    .dvcignore
+    ```
