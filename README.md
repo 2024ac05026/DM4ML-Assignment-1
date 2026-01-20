@@ -94,3 +94,21 @@ modern data engineering and MLOps practices.
     ```bash
     reports/4_data_quality_report.pdf
     logs/validation.log
+
+5. **Data Preparation and EDA**
+    Run the data preparation and exploratory analysis script from the project root:
+
+    ```bash
+    python -m src.preparation.clean_and_prepare
+    ```
+
+    This step performs data cleaning, enrichment, encoding, normalization, and
+    exploratory data analysis.
+
+    **Expected Output:**
+
+    ```bash
+    data/processed/prepared_interactions.csv
+    data/processed/eda/interaction_distribution.png
+    data/processed/eda/top_products.png
+    ```
