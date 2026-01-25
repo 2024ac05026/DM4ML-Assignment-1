@@ -47,3 +47,17 @@
 2026-01-20 14:35:38,825 - INFO - Clickstream data ingested successfully at data\raw\clickstream\2026\01\20\clickstream.csv
 2026-01-20 14:35:39,001 - INFO - Starting product API ingestion
 2026-01-20 14:35:39,524 - INFO - Product data ingested successfully from API at data\raw\products\2026\01\20\products.json
+2026-01-25 15:51:37,403 - INFO - Starting clickstream ingestion
+2026-01-25 15:51:37,411 - INFO - Clickstream data ingested successfully at data\raw\clickstream\2026\01\25\clickstream.csv
+2026-01-25 15:51:43,116 - INFO - Starting product API ingestion
+2026-01-25 15:51:43,401 - ERROR - Attempt 1 failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-01-25 15:51:45,402 - INFO - Starting product API ingestion
+2026-01-25 15:51:46,470 - INFO - Product data ingested successfully from API at data\raw\products\2026\01\25\products.json
+2026-01-25 15:54:49,004 - INFO - Starting clickstream ingestion
+2026-01-25 15:54:49,004 - INFO - Clickstream data ingested successfully at data\raw\clickstream\2026\01\25\clickstream.csv
+2026-01-25 15:54:49,180 - INFO - Starting product API ingestion
+2026-01-25 15:54:49,475 - ERROR - Attempt 1 failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-01-25 15:54:51,476 - INFO - Starting product API ingestion
+2026-01-25 15:54:51,734 - ERROR - Attempt 2 failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-01-25 15:54:53,735 - INFO - Starting product API ingestion
+2026-01-25 15:54:54,333 - INFO - Product data ingested successfully from API at data\raw\products\2026\01\25\products.json

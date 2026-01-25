@@ -55,3 +55,61 @@ See https://docs.prefect.io/v3/concepts/server#how-to-guides for more informatio
 2026-01-20 14:35:48,419 | INFO | httpx | HTTP Request: POST http://127.0.0.1:8417/api/logs/ "HTTP/1.1 201 Created"
 2026-01-20 14:35:48,420 | INFO | prefect | Stopping temporary server on http://127.0.0.1:8417
 2026-01-20 14:35:48,420 | INFO | prefect | Stopping temporary server on http://127.0.0.1:8417
+2026-01-25 15:54:45,178 | INFO | prefect | Starting temporary server on http://127.0.0.1:8097
+See https://docs.prefect.io/v3/concepts/server#how-to-guides for more information on running a dedicated Prefect server.
+2026-01-25 15:54:45,178 | INFO | prefect | Starting temporary server on http://127.0.0.1:8097
+See https://docs.prefect.io/v3/concepts/server#how-to-guides for more information on running a dedicated Prefect server.
+2026-01-25 15:54:48,498 | INFO | httpx | HTTP Request: GET http://127.0.0.1:8097/api/health "HTTP/1.1 200 OK"
+2026-01-25 15:54:48,657 | INFO | httpx | HTTP Request: GET http://127.0.0.1:8097/api/admin/version "HTTP/1.1 200 OK"
+2026-01-25 15:54:48,663 | INFO | httpx | HTTP Request: GET http://127.0.0.1:8097/api/csrf-token?client=a267c255-4123-45b0-9b31-2356057f3725 "HTTP/1.1 422 Unprocessable Content"
+2026-01-25 15:54:48,675 | INFO | httpx | HTTP Request: POST http://127.0.0.1:8097/api/flows/ "HTTP/1.1 200 OK"
+2026-01-25 15:54:48,711 | INFO | httpx | HTTP Request: POST http://127.0.0.1:8097/api/flow_runs/ "HTTP/1.1 201 Created"
+2026-01-25 15:54:48,772 | INFO | httpx | HTTP Request: POST http://127.0.0.1:8097/api/flow_runs/adcc3fa3-c00f-41c4-b9b0-fa637a45c75c/set_state "HTTP/1.1 201 Created"
+2026-01-25 15:54:48,776 | INFO | httpx | HTTP Request: GET http://127.0.0.1:8097/api/flow_runs/adcc3fa3-c00f-41c4-b9b0-fa637a45c75c "HTTP/1.1 200 OK"
+2026-01-25 15:54:48,782 | INFO | prefect.flow_runs | Beginning flow run 'versed-binturong' for flow 'dm4ml_recommendation_pipeline'
+2026-01-25 15:54:48,782 | INFO | prefect.flow_runs | Beginning flow run 'versed-binturong' for flow 'dm4ml_recommendation_pipeline'
+2026-01-25 15:54:49,011 | INFO | prefect.task_runs | Clickstream ingestion completed
+2026-01-25 15:54:49,011 | INFO | prefect.task_runs | Clickstream ingestion completed
+2026-01-25 15:54:49,013 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:54:49,013 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:54:49,088 | INFO | httpx | HTTP Request: GET http://127.0.0.1:8097/api/flows/ca1a7bbf-283f-4d2d-ac67-20f92b7bda4f "HTTP/1.1 200 OK"
+2026-01-25 15:54:50,944 | INFO | httpx | HTTP Request: GET http://127.0.0.1:8097/api/csrf-token?client=a5f19782-5fd6-4cff-85d1-1c25d538ebb4 "HTTP/1.1 422 Unprocessable Content"
+2026-01-25 15:54:50,958 | INFO | httpx | HTTP Request: POST http://127.0.0.1:8097/api/logs/ "HTTP/1.1 201 Created"
+2026-01-25 15:54:54,352 | INFO | prefect.task_runs | Product ingestion completed
+2026-01-25 15:54:54,352 | INFO | prefect.task_runs | Product ingestion completed
+2026-01-25 15:54:54,354 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:54:54,354 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:54:54,990 | INFO | httpx | HTTP Request: POST http://127.0.0.1:8097/api/logs/ "HTTP/1.1 201 Created"
+2026-01-25 15:54:55,050 | INFO | prefect.task_runs | Data validation completed
+2026-01-25 15:54:55,050 | INFO | prefect.task_runs | Data validation completed
+2026-01-25 15:54:55,051 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:54:55,051 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:54:56,898 | INFO | prefect.task_runs | Data preparation completed
+2026-01-25 15:54:56,898 | INFO | prefect.task_runs | Data preparation completed
+2026-01-25 15:54:56,900 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:54:56,900 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:54:57,007 | INFO | httpx | HTTP Request: POST http://127.0.0.1:8097/api/logs/ "HTTP/1.1 201 Created"
+2026-01-25 15:54:57,712 | INFO | prefect.task_runs | Feature engineering completed
+2026-01-25 15:54:57,712 | INFO | prefect.task_runs | Feature engineering completed
+2026-01-25 15:54:57,713 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:54:57,713 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:54:58,375 | INFO | prefect.task_runs | Feature store retrieval demo completed
+2026-01-25 15:54:58,375 | INFO | prefect.task_runs | Feature store retrieval demo completed
+2026-01-25 15:54:58,377 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:54:58,377 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:54:59,015 | INFO | httpx | HTTP Request: POST http://127.0.0.1:8097/api/logs/ "HTTP/1.1 201 Created"
+2026-01-25 15:55:00,782 | INFO | prefect.task_runs | Model training completed
+2026-01-25 15:55:00,782 | INFO | prefect.task_runs | Model training completed
+2026-01-25 15:55:00,784 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:55:00,784 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:55:01,028 | INFO | httpx | HTTP Request: POST http://127.0.0.1:8097/api/logs/ "HTTP/1.1 201 Created"
+2026-01-25 15:55:03,271 | INFO | prefect.task_runs | Model evaluation completed
+2026-01-25 15:55:03,271 | INFO | prefect.task_runs | Model evaluation completed
+2026-01-25 15:55:03,273 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:55:03,273 | INFO | prefect.task_runs | Finished in state Completed()
+2026-01-25 15:55:03,285 | INFO | httpx | HTTP Request: POST http://127.0.0.1:8097/api/flow_runs/adcc3fa3-c00f-41c4-b9b0-fa637a45c75c/set_state "HTTP/1.1 201 Created"
+2026-01-25 15:55:03,285 | INFO | prefect.flow_runs | Finished in state Completed()
+2026-01-25 15:55:03,285 | INFO | prefect.flow_runs | Finished in state Completed()
+2026-01-25 15:55:03,323 | INFO | httpx | HTTP Request: POST http://127.0.0.1:8097/api/logs/ "HTTP/1.1 201 Created"
+2026-01-25 15:55:03,325 | INFO | prefect | Stopping temporary server on http://127.0.0.1:8097
+2026-01-25 15:55:03,325 | INFO | prefect | Stopping temporary server on http://127.0.0.1:8097
