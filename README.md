@@ -23,6 +23,9 @@ modern data engineering and MLOps practices.
 7. Model Training & Evaluation
 8. Pipeline Orchestration
 
+## Demo Video URL
+https://drive.google.com/file/d/1iX5EugTZ87bai6_5dqa_1pAOZN-WR4gT/view?usp=sharing
+
 ## Tech Stack
 - Python, Pandas
 - Great Expectations (Data Validation)
